@@ -1,6 +1,4 @@
-USE natdb;
-
-CREATE TABLE IF NOT EXISTS nat_survey (
+CREATE TABLE IF NOT EXISTS nat_records (
     id INT AUTO_INCREMENT PRIMARY KEY,
     respondent VARCHAR(255) NOT NULL,
     age INT,
@@ -16,7 +14,7 @@ CREATE TABLE IF NOT EXISTS nat_survey (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-INSERT INTO nat_survey (
+INSERT INTO nat_records (
     respondent,
     age,
     sex,
