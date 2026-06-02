@@ -12,6 +12,8 @@ RUN npm install --legacy-peer-deps
 # COPY ALL SOURCE FILES
 COPY . .
 
+RUN echo "Build $(date)"
+
 # BUILD THE REACT APP
 RUN npm run build
 
