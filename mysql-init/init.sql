@@ -19,7 +19,7 @@ INSERT INTO nat_records (
     age,
     sex,
     ethnic,
-    academic_performance,
+    academic_performance,   
     academic_description,
     iq,
     type_school,
